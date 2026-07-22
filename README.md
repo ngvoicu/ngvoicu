@@ -16,7 +16,9 @@ All free & open source (MIT).
 
 ## Watch it work
 
-Latest: [Specmint — AI coding specs that survive the session (3 min)](https://www.youtube.com/watch?v=QSI-C57bt78)
+Latest: [ConsensFlow — a second AI opinion inside Claude Code & Pi (3 min)](https://www.youtube.com/watch?v=iKuBFEDE8Go)
+
+Also: [Kluris — one shared memory for your AI agents](https://www.youtube.com/watch?v=ei1F0ZbNX3o) · [Specmint — specs that survive the session](https://www.youtube.com/watch?v=QSI-C57bt78)
 
 More videos on [YouTube](https://www.youtube.com/@CodeWithZee) · write-ups on [ngvoicu.dev](https://ngvoicu.dev/articles/) and [Medium](https://medium.com/@ngvoicu)
 
