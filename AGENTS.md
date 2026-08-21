@@ -2,7 +2,7 @@
 
 Byte-identical in `CLAUDE.md` and `AGENTS.md`. Read `../CLAUDE.md` (workspace identity hub) first.
 
-This repo is `ngvoicu/ngvoicu` — the **GitHub profile README** rendered at https://github.com/ngvoicu. One file (`README.md`), public, GitHub upstream is origin-equivalent here (`gh repo`), also mirrored conventions apply.
+This repo is `ngvoicu/ngvoicu` — the **GitHub profile README** rendered at https://github.com/ngvoicu. One file (`README.md`), public. Remotes follow the workspace convention: `origin` = NAS (`ssh://zeenas/volume1/git/ngvoicu/ngvoicu.git`), `upstream` = GitHub — publishing the profile means `git push upstream main`.
 
 ## Rules
 
