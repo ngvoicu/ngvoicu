@@ -1,6 +1,6 @@
 # Gabriel Voicu
 
-Senior Principal Software Engineer: a decade of enterprise Java, now all-in on AI-native development. Real tools, real workflows, no hype.
+Software engineer and AI-native consultant: a decade of enterprise Java, now all-in on AI-native development. Real tools, real workflows, no hype.
 
 I build open-source tools for AI coding agents and use them on real work every day. I also help companies [become AI-native](https://ngvoicu.dev/#consulting): AI built into the workflow by design, with humans owning truth, risk, and direction. The playbook is written down in [Becoming an AI Native Company](https://ngvoicu.dev/becoming-an-ai-native-company/).
 
