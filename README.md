@@ -1,29 +1,27 @@
 # Gabriel Voicu
 
-AI-native software development — real tools, real workflows, no hype.
+Senior Principal Software Engineer: a decade of enterprise Java, now all-in on AI-native development. Real tools, real workflows, no hype.
 
-I build the AI-native toolkit I use every day, and I show it working for real — actual agents, actual outputs, no mockups.
+I build open-source tools for AI coding agents and use them on real work every day. I also help companies [become AI-native](https://ngvoicu.dev/#consulting): AI built into the workflow by design, with humans owning truth, risk, and direction. The playbook is written down in [Becoming an AI Native Company](https://ngvoicu.dev/becoming-an-ai-native-company/).
 
-## The AI-Native Toolkit
+## The AI-native toolkit
 
-| Tool | What it does | |
+Free and open source, MIT licensed.
+
+| Tool | What it does | Repo |
 |---|---|---|
-| **[ConsensFlow](https://consensflow.ngvoicu.dev)** | A second AI opinion (or a whole team of them) inside Claude Code & Pi — spec review, code review, task delegation | [`consensflow-cc`](https://github.com/ngvoicu/consensflow-cc) |
-| **[Kluris](https://kluris.ngvoicu.dev)** | One shared brain for all your AI agents — team knowledge as markdown in git | [`kluris`](https://github.com/ngvoicu/kluris) |
-| **[Specmint](https://specmint.ngvoicu.dev)** | AI coding specs that survive the session — research-first, resumable across tools | [`specmint-core`](https://github.com/ngvoicu/specmint-core) |
-
-All free & open source (MIT).
+| **[ConsensFlow](https://consensflow.ngvoicu.dev)** | A desktop app (macOS, Windows) that runs a team of AI coding agents on your project. You talk to a chief agent; it plans the work on a board, and its staff take tasks, answer questions, and review results, each in its own terminal running Claude Code, Codex, OpenCode, Pi, or Devin. Rust engine; [alpha releases](https://github.com/ngvoicu/consensflow/releases). | [`consensflow`](https://github.com/ngvoicu/consensflow) |
+| **[Kluris](https://kluris.ngvoicu.dev)** | The SME your team never had: one shared brain for all your AI agents, kept as markdown in git. Agents propose, people approve. | [`kluris`](https://github.com/ngvoicu/kluris) |
+| **[Specmint](https://specmint.ngvoicu.dev)** | AI coding specs that survive the session: research and interviews first, then a spec in your repo that any tool can resume. | [`specmint-core`](https://github.com/ngvoicu/specmint-core) |
 
 ## Watch it work
 
-Latest: [ConsensFlow — a second AI opinion inside Claude Code & Pi (3 min)](https://www.youtube.com/watch?v=iKuBFEDE8Go)
+Short demos on [YouTube](https://www.youtube.com/@CodeWithZee): actual agents, actual outputs, no mockups.
 
-Also: [Kluris — one shared memory for your AI agents](https://www.youtube.com/watch?v=ei1F0ZbNX3o) · [Specmint — specs that survive the session](https://www.youtube.com/watch?v=QSI-C57bt78)
-
-More videos on [YouTube](https://www.youtube.com/@CodeWithZee) · write-ups on [ngvoicu.dev](https://ngvoicu.dev/articles/) and [Medium](https://medium.com/@ngvoicu)
+- Latest: [ConsensFlow: a second AI opinion inside Claude Code & Pi](https://www.youtube.com/watch?v=iKuBFEDE8Go). It shows the earlier plugin version, before ConsensFlow became a desktop app.
+- [Kluris: give your AI agents one shared memory](https://www.youtube.com/watch?v=ei1F0ZbNX3o)
+- [Specmint: AI coding specs that survive the session](https://www.youtube.com/watch?v=QSI-C57bt78)
 
 ## Elsewhere
 
-[ngvoicu.dev](https://ngvoicu.dev) · [YouTube](https://www.youtube.com/@CodeWithZee) · [LinkedIn](https://www.linkedin.com/in/ngvoicu/) · [Medium](https://medium.com/@ngvoicu)
-
-*Senior Principal Software Engineer — a decade of enterprise Java, now all-in on AI-native workflows.*
+[ngvoicu.dev](https://ngvoicu.dev) · [Articles](https://ngvoicu.dev/articles/) · [YouTube](https://www.youtube.com/@CodeWithZee) · [LinkedIn](https://www.linkedin.com/in/ngvoicu/) · [Medium](https://medium.com/@ngvoicu)
