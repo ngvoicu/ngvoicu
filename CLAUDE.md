@@ -9,7 +9,7 @@ This file exists twice, as `CLAUDE.md` and `AGENTS.md`, and the two are byte-ide
 ## What to keep true
 
 - **The toolkit table.** ConsensFlow, Kluris and Specmint, each with its `*.ngvoicu.dev` site and its repo, described as they are today. Before changing a row, read the product's repo README, its latest release and its site. If they disagree, the repo and the release win; tell the owner which page is behind.
-- **Links.** Never link a retired domain (`kluris.io`, `specmint.io`) or the archived `ngvoicu/consensflow-cc`. ConsensFlow downloads go to `https://github.com/ngvoicu/consensflow/releases`: every release so far is a prerelease, and GitHub's `/releases/latest` skips prereleases. Don't pin version numbers; alphas ship several times a week.
+- **Links.** Never link a retired domain (`kluris.io`, `specmint.io`) or the archived `ngvoicu/consensflow-cc`. ConsensFlow downloads go to `https://github.com/ngvoicu/consensflow/releases`: every release so far is a prerelease, and GitHub's `/releases/latest` skips prereleases. Don't pin version numbers, and don't call them alphas or prereleases in the text: they are releases, and they ship often.
 - **The latest video.** The first item under "Watch it work" is the newest full video on https://www.youtube.com/@CodeWithZee (Shorts are clips of those and don't count). Update it the day a video publishes. A video that shows an older version of a product says so.
 - **The tone.** Real tools, real workflows, no hype. Short. No emojis, no badge walls, no email address.
 

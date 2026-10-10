@@ -10,9 +10,9 @@ Free and open source, MIT licensed.
 
 | Tool | What it does | Repo |
 |---|---|---|
-| **[ConsensFlow](https://consensflow.ngvoicu.dev)** | A desktop app (macOS, Windows) that runs a team of AI coding agents on your project. You talk to a chief agent; it plans the work on a board, and its staff take tasks, answer questions, and review results, each in its own terminal running Claude Code, Codex, OpenCode, Pi, or Devin. Rust engine; [alpha releases](https://github.com/ngvoicu/consensflow/releases). | [`consensflow`](https://github.com/ngvoicu/consensflow) |
+| **[ConsensFlow](https://consensflow.ngvoicu.dev)** | A desktop app (macOS, Windows) that runs a team of AI coding agents on your project. You talk to a chief agent; it plans the work on a board, and its staff take tasks, answer questions, and review results, each in its own terminal running Claude Code, Codex, OpenCode, Pi, or Devin. Rust engine; [releases](https://github.com/ngvoicu/consensflow/releases). | [`consensflow`](https://github.com/ngvoicu/consensflow) |
 | **[Kluris](https://kluris.ngvoicu.dev)** | The SME your team never had: one shared brain for all your AI agents, kept as markdown in git. Agents propose, people approve. | [`kluris`](https://github.com/ngvoicu/kluris) |
-| **[Specmint](https://specmint.ngvoicu.dev)** | AI coding specs that survive the session: research and interviews first, then a spec in your repo that any tool can resume. | [`specmint-core`](https://github.com/ngvoicu/specmint-core) |
+| **[Specmint](https://specmint.ngvoicu.dev)** | AI coding specs that survive the session: research and interviews first, then a spec in your repo that any tool can resume. | [`specmint-core`](https://github.com/ngvoicu/specmint-core) · [`specmint-tdd`](https://github.com/ngvoicu/specmint-tdd), each also in an HTML edition ([`core`](https://github.com/ngvoicu/specmint-core-html), [`tdd`](https://github.com/ngvoicu/specmint-tdd-html)) |
 
 ## Watch it work
 
