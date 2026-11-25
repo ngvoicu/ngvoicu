@@ -2,7 +2,7 @@
 
 Software engineer and AI-native consultant: a decade of enterprise Java, now all-in on AI-native development. Real tools, real workflows, no hype.
 
-I build open-source tools for AI coding agents and use them on real work every day. I also help companies [become AI-native](https://ngvoicu.dev/#consulting): AI built into the workflow by design, with humans owning truth, risk, and direction. The playbook is written down in [Becoming an AI Native Company](https://ngvoicu.dev/becoming-an-ai-native-company/).
+I build open-source tools for AI coding agents and for the models behind them, and use them on real work every day. I also help companies [become AI-native](https://ngvoicu.dev/#consulting): AI built into the workflow by design, with humans owning truth, risk, and direction. The playbook is written down in [Becoming an AI Native Company](https://ngvoicu.dev/becoming-an-ai-native-company/).
 
 ## The AI-native toolkit
 
@@ -10,9 +10,21 @@ Free and open source, MIT licensed.
 
 | Tool | What it does | Repo |
 |---|---|---|
-| **[ConsensFlow](https://consensflow.ngvoicu.dev)** | A desktop app (macOS, Windows) that runs a team of AI coding agents on your project. You talk to a chief agent; it plans the work on a board, and its staff take tasks, answer questions, and review results, each in its own terminal running Claude Code, Codex, OpenCode, Pi, or Devin. Rust engine; [releases](https://github.com/ngvoicu/consensflow/releases). | [`consensflow`](https://github.com/ngvoicu/consensflow) |
+| **[ConsensFlow](https://consensflow.ngvoicu.dev)** | A desktop app (macOS, Windows) that runs a team of AI coding agents on your project. You talk to a chief agent; it plans the work on a board, and a staff in nine roles (workers, reviewers, testers, designers and more) takes the tasks, each in its own terminal running Claude Code, Codex, Pi, Devin, or Muse Code. Rust engine; [releases](https://github.com/ngvoicu/consensflow/releases). | [`consensflow`](https://github.com/ngvoicu/consensflow) |
 | **[Kluris](https://kluris.ngvoicu.dev)** | The SME your team never had: one shared brain for all your AI agents, kept as markdown in git. Agents propose, people approve. | [`kluris`](https://github.com/ngvoicu/kluris) |
 | **[Specmint](https://specmint.ngvoicu.dev)** | AI coding specs that survive the session: research and interviews first, then a spec in your repo that any tool can resume. | [`specmint-core`](https://github.com/ngvoicu/specmint-core) · [`specmint-tdd`](https://github.com/ngvoicu/specmint-tdd), each also in an HTML edition ([`core`](https://github.com/ngvoicu/specmint-core-html), [`tdd`](https://github.com/ngvoicu/specmint-tdd-html)) |
+
+## providers.dev
+
+The models behind the agents, as each provider and access method really exposes them, and the tools to use them well. Free and open source, MIT licensed.
+
+| Tool | What it does | Repo |
+|---|---|---|
+| **[providers.dev](https://providers.dev)** | AI models as each provider and access method exposes them: context window, maximum output, price and prompt caching per model, for API keys and subscription logins alike. Its own measurements stand beside the documented values, and a warning marks where sources disagree. Built on models.dev, with a free JSON API. | [`providers.dev`](https://github.com/ngvoicu/providers.dev) |
+| **[Provimux](https://provimux.providers.dev)** | A self-hosted AI gateway: one key and one endpoint (OpenAI-, Claude- and Gemini-compatible) for your API keys and subscriptions, for you or your whole team. It keeps the prompt cache in use and shows which account answered. Built on [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI). | [`provimux`](https://github.com/ngvoicu/provimux) · console [`provimux-ui`](https://github.com/ngvoicu/provimux-ui) · Homebrew [`homebrew-tap`](https://github.com/ngvoicu/homebrew-tap) |
+| **[pi-provimux](https://provimux.providers.dev/#pi)** | The Pi extension for Provimux: every model your Provimux serves appears in Pi's `/model`, its name saying which accounts serve it. | [`pi-provimux`](https://github.com/ngvoicu/pi-provimux) |
+| **[pi-cache-keeper](https://pi-cache-keeper.providers.dev)** | A Pi extension that makes the prompt cache pay off: it compacts a session from the warm cache, at a fraction of the cost on big sessions, compacts before the cache expires, and can keep it warm through a break. Based on Nico Bailon's [pi-cached-compaction](https://github.com/nicobailon/pi-cached-compaction). | [`pi-cache-keeper`](https://github.com/ngvoicu/pi-cache-keeper) |
+| **groundtruth** | The measuring tool behind providers.dev: how long prompt caches really live and how large the limits really are, per endpoint, model and route. | [`groundtruth`](https://github.com/ngvoicu/groundtruth) |
 
 ## Watch it work
 
@@ -24,4 +36,4 @@ Short demos on [YouTube](https://www.youtube.com/@CodeWithZee): actual agents, a
 
 ## Elsewhere
 
-[ngvoicu.dev](https://ngvoicu.dev) · [Articles](https://ngvoicu.dev/articles/) · [YouTube](https://www.youtube.com/@CodeWithZee) · [LinkedIn](https://www.linkedin.com/in/ngvoicu/) · [Medium](https://medium.com/@ngvoicu)
+[ngvoicu.dev](https://ngvoicu.dev) · [Articles](https://ngvoicu.dev/articles/) · [YouTube](https://www.youtube.com/@CodeWithZee) · [LinkedIn](https://www.linkedin.com/in/ngvoicu/) · [Medium](https://medium.com/@ngvoicu) · [office@ngvoicu.dev](mailto:office@ngvoicu.dev)

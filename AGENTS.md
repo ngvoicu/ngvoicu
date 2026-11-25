@@ -9,9 +9,16 @@ This file exists twice, as `CLAUDE.md` and `AGENTS.md`, and the two are byte-ide
 ## What to keep true
 
 - **The toolkit table.** ConsensFlow, Kluris and Specmint, each with its `*.ngvoicu.dev` site and its repo, described as they are today. Before changing a row, read the product's repo README, its latest release and its site. If they disagree, the repo and the release win; tell the owner which page is behind.
-- **Links.** Never link a retired domain (`kluris.io`, `specmint.io`) or the archived `ngvoicu/consensflow-cc`. ConsensFlow downloads go to `https://github.com/ngvoicu/consensflow/releases`: every release so far is a prerelease, and GitHub's `/releases/latest` skips prereleases. Don't pin version numbers, and don't call them alphas or prereleases in the text: they are releases, and they ship often.
+- **The providers.dev table.** providers.dev, Provimux, pi-provimux, pi-cache-keeper and groundtruth, the work under `providers.dev`, kept apart from the toolkit on `*.ngvoicu.dev`. Their truth lives in the same three places, and the same rule decides:
+  - providers.dev: the `providers.dev` repo's README and https://providers.dev (no releases; the site deploys from `main`).
+  - Provimux: the `provimux` README and latest release, https://provimux.providers.dev; its console `provimux-ui` (README and release) and the Homebrew tap `homebrew-tap`. Provimux is built on CLIProxyAPI by router-for-me; the row says so.
+  - pi-provimux: the `pi-provimux` README and release, its npm package, and the "For pi" section of Provimux's site (`https://provimux.providers.dev/#pi`); it has no site of its own.
+  - pi-cache-keeper: the `pi-cache-keeper` README and release, its npm package, https://pi-cache-keeper.providers.dev. It is based on pi-cached-compaction by Nico Bailon; keep that credit wherever its origin is described.
+  - groundtruth: the `groundtruth` README; it has no site and no releases.
+- **Links.** Never link a retired domain (`kluris.io`, `specmint.io`) or the archived `ngvoicu/consensflow-cc`. Provimux's support page is `https://provimux.providers.dev/support/`, not the old `https://providers.dev/support/` (it only redirects), and Provimux's and pi-cache-keeper's sites are their subdomains, not paths under `providers.dev`. Don't link npmjs.com: it answers `403` to scripts; each repo links its package. ConsensFlow downloads go to `https://github.com/ngvoicu/consensflow/releases`, which lists both channels: GitHub's `/releases/latest` is the latest stable release, while the alphas, which run ahead of it, are prereleases. Don't pin version numbers, and don't call them alphas or prereleases in the text: they are releases, and they ship often.
 - **The latest video.** The first item under "Watch it work" is the newest full video on https://www.youtube.com/@CodeWithZee (Shorts are clips of those and don't count). Update it the day a video publishes. A video that shows an older version of a product says so.
-- **The tone.** Real tools, real workflows, no hype. Short. No emojis, no badge walls, no email address.
+- **The tone.** Real tools, real workflows, no hype. Short. No emojis, no badge walls.
+- **Contact.** `office@ngvoicu.dev` is the one email address the profile shows, as a `mailto:` link at the end of the "Elsewhere" line (ngvoicu.dev links the same address). No other address, personal or otherwise.
 
 ## Remotes
 
